@@ -270,7 +270,7 @@ def toggle_wishlist(product_id):
 def api_categories():
     counts = {}
     for cat in CATEGORIES:
-        if cat == "Stationary":
+        if cat == "Stationery":
             counts[cat] = 0
         else:
             counts[cat] = len([p for p in PRODUCTS if p["category"] == cat])
