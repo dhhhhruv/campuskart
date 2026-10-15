@@ -188,7 +188,7 @@ body {
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
-    display: block;
+    display: inline-block;
 }
 
 .reviews-section {
