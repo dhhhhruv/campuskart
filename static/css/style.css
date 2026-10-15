@@ -283,7 +283,7 @@ body {
     gap: 4px;
 }
 
-.error-msg {
+.error-message {
     color: #a71d2a;
     background: #f8d7da;
     padding: 10px;
