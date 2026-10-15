@@ -151,7 +151,7 @@ body {
 .product-detail-info .price {
     font-size: 24px;
     color: #27ae60;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .add-to-cart-form {
