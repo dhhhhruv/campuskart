@@ -48,7 +48,7 @@
 <div class="cart-summary">
     <p>Total: Rs. {{ total }}</p>
     {% if total < free_shipping_threshold %}
-    <p class="shipping-note">Add more items to get free shipping!</p>
+    <p class="shipping-note">Add Rs. {{ free_shipping_threshold - total }} more to get free shipping!</p>
     {% endif %}
     <a href="{{ url_for('clear_cart') }}" class="clear-cart-link">Clear Cart</a>
     <a href="{{ url_for('checkout') }}" class="btn-primary">Proceed to Checkout</a>
