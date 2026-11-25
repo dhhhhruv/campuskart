@@ -8,7 +8,7 @@ function highlightActiveLink() {
     const links = document.querySelectorAll("nav a");
     const path = window.location.pathname;
     links.forEach(function (link) {
-        if (link.href === path) {
+        if (link.pathname === path) {
             link.classList.add("active");
         }
     });
