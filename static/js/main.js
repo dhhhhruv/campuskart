@@ -1,6 +1,6 @@
 // Formats a number as rupees, e.g. formatPrice(1499) -> "Rs. 1,499"
 function formatPrice(amount) {
-    return "Rs. " + amount;
+    return "Rs. " + Number(amount).toLocaleString();
 }
 
 // Highlights the current nav link based on the page path
